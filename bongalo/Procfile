@@ -1,1 +1,1 @@
-web: cd bongalo && gunicorn wsgi:application
+web: gunicorn bongalo.wsgi
